@@ -4,10 +4,11 @@ fun main() {
 
 fun pohonImajin(tahun:Int, tinggi:Int ) {
     var i = 0
+    var b = 0
     while (i < tahun){
         val a = tinggi * 2
-        val b = tinggi + 1
+        b = tinggi + 1
         i += 1
-        print(b)
     }
+    print("Tinggi pohon selama $tahun tahun adalah $b meter")
 }
